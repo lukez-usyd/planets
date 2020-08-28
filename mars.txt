@@ -47,3 +47,7 @@ HEAD = current state of repo
 git checkout HEAD
 ~1 = previous version to HEAD
 git checkout HEAD~1
+
+>>
+
+Commit a .gitignore file to ignore files.
