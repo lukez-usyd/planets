@@ -1,1 +1,17 @@
-edit 1
+>> One-offs - setting up repo
+
+git config --global
+user.name
+user.email
+core.editor
+
+git config --list
+
+Create folder for repo and get inside
+git init
+
+>> Working with git repo
+git status
+git add
+git commit
+git log
