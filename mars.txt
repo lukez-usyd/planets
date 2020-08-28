@@ -1,3 +1,9 @@
+https://swcarpentry.github.io/git-novice/
+https://cloudstor.aarnet.edu.au/plus/apps/swanviewer/home
+https://github.com/k88hudson/git-flight-rules
+http://www.yolinux.com/TUTORIALS/unix_for_dos_users.html
+
+
 >> One-offs - setting up repo
 
 git config --global
@@ -18,8 +24,6 @@ git log --oneline --graph
 
 git diff before git add to see changes vs working directory
 
-Discard changes
-git checkout -- mars.txt
 
 >> Collab
 
@@ -30,7 +34,16 @@ git add
 git commit -m
 git push origin master
 
-
 Review changes:
 git fetch origin master
 git diff master origin/master
+
+>> Branches
+
+Discard changes
+git checkout -- mars.txt
+
+HEAD = current state of repo
+git checkout HEAD
+~1 = previous version to HEAD
+git checkout HEAD~1
