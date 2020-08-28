@@ -14,4 +14,23 @@ git init
 git status
 git add
 git commit
-git log
+git log --oneline --graph
+
+git diff before git add to see changes vs working directory
+
+Discard changes
+git checkout -- mars.txt
+
+>> Collab
+
+http://swcarpentry.github.io/git-novice/08-collab/index.html
+Basic workflow with remote:
+git pull origin master
+git add
+git commit -m
+git push origin master
+
+
+Review changes:
+git fetch origin master
+git diff master origin/master
